@@ -1,0 +1,23 @@
+{
+  "name": "rashee",
+  "version": "0.0.1",
+  "description": "a cli tool to get your horoscope for today",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmorabia/rashee.git"
+  },
+  "keywords": [
+    "horoscope",
+    "cli"
+  ],
+  "author": "Radhika Morabia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmorabia/rashee/issues"
+  },
+  "homepage": "https://github.com/rmorabia/rashee#readme"
+}
