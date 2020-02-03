@@ -30,6 +30,8 @@ npm i
 
 ## Usage
 
+**Note:** The `<sunsign>` command refers to the most prominent and common sign you associate with horoscopes. It's what comes up on Google when you type in your birthday + "zodiac sign." 
+
 The best way to use this app is to run:
 
 ```
@@ -39,7 +41,7 @@ npx rashee <sunsign>
 You can also install it using:
 
 ```
-npm i (-g) rashee`
+npm i (-g) rashee
 ```
 
 If you have it installed, you can run it by using:

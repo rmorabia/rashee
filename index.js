@@ -7,7 +7,7 @@ const argv = require('yargs')
   .help('help')
   .argv
 
-const sunsign = argv._[0].toLowerCase()
+const sunsign = argv && argv._[0] && argv._[0].toLowerCase()
 
 const potentialSunsigns = {
   aries: {
@@ -60,8 +60,16 @@ const potentialSunsigns = {
   }
 }
 
+if (!argv._[0]) {
+  console.log(`${chalk.bold('Welcome to rashee!')}
+Get your horoscope for today by running ${chalk.blue('npx run rashee')}.
+If you need help, run ${chalk.red('npx run help')}.
+Thanks for using my silly little app. :)`)
+  process.exit()
+}
+
 if (!(sunsign in potentialSunsigns)) {
-  console.log('Please enter a valid sunsign.')
+  console.log(`${chalk.bold('Uh oh!')} You entered a command that isn't a sunsign. Try running the app again with a valid sunsign, like ${chalk.white('cancer')} or ${chalk.blue('aquarius')}.`)
   process.exit()
 }
 
