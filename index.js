@@ -4,8 +4,8 @@ const https = require('https')
 const chalk = require('chalk')
 const argv = require('yargs')
   .command('sunsign', "sunsign to get today's horoscope for")
-  .argv.help('help')
   .help('help')
+  .argv
 
 const sunsign = argv._[0].toLowerCase()
 
