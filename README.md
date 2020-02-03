@@ -56,7 +56,7 @@ Issues are welcome! Suggest a new feature, report a bug, or just yell at me. I'm
 
 Pull Requests are also welcome.
 
-Although there is no official Code of Conduct, I'd encourage all possible contributors to follow the [Contributor Covenant CoC](https://www.contributor-covenant.org/version/1/4/code-of-conduct).
+Please note, in order to contribute to this codebase, you must follow the code of conduct. This follows the Contributor Covenant standard and can be viewed [here](https://github.com/rmorabia/rashee/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
