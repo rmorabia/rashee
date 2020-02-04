@@ -93,9 +93,7 @@ const getHoroscope = https.request(horoscopeAPI, response => {
     const name = sunsign.charAt(0).toUpperCase() + sunsign.slice(1)
 
     console.log(
-      `Hey there, beautiful ${chalk.bgKeyword(color)(
-        symbol
-      )} ${name}! Here's your horoscope for today:`
+      `Hey there, beautiful ${symbol} ${name}! Here's your horoscope for today:`
     )
     console.log(chalk.keyword(color)(horoscope))
     console.log(chalk.keyword(color).inverse(`Feeling ${mood}`))
