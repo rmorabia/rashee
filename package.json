@@ -1,6 +1,6 @@
 {
   "name": "rashee",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Get your horoscope for the day printed to your console!",
   "main": "index.js",
   "scripts": {
