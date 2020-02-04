@@ -1,4 +1,4 @@
-![GitHub top language](https://img.shields.io/github/languages/top/rmorabia/rashee.svg?style=for-the-badge) ![Requires.io](https://img.shields.io/requires/github/rmorabia/rashee.svg?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/rmorabia/rashee.svg?style=for-the-badge) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rmorabia/rashee.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/rmorabia/rashee.svg?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/rmorabia/rashee.svg?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/rmorabia/rashee.svg?style=for-the-badge) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rmorabia/rashee.svg?style=for-the-badge) ![GitHub](https://img.shields.io/github/license/rmorabia/rashee.svg?style=for-the-badge)
 
 # [rashee](https://www.npmjs.com/package/rashee)
 
