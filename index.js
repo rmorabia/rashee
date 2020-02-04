@@ -3,7 +3,7 @@
 const https = require('https')
 const chalk = require('chalk')
 const argv = require('yargs')
-  .command('sunsign', "sunsign to get today's horoscope for")
+  .command('sunsign', 'The most prominent and common sign you associate with horoscopes. Probably similar to "cancer" or "aquarius."')
   .help('help')
   .argv
 
