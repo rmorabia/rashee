@@ -6,8 +6,9 @@ const argv = require('yargs')
   .command('sunsign', 'The most prominent and common sign you associate with horoscopes. Probably similar to "cancer" or "aquarius."')
   .help('help')
   .argv
+const stringSimilarity = require('string-similarity')
 
-const sunsign = argv && argv._[0] && argv._[0].toLowerCase()
+let sunsign = argv && argv._[0] && argv._[0].toLowerCase()
 
 const potentialSunsigns = {
   aries: {
@@ -66,6 +67,13 @@ Get your horoscope for today by running ${chalk.blue('npx rashee <sunsign>')}. Y
 If you need help, run ${chalk.red('npx rashee help')}.
 Thanks for using my silly little app. ${chalk.bold(':)')}`)
   process.exit()
+}
+
+if (!(sunsign in potentialSunsigns)) {
+  const results = stringSimilarity.findBestMatch(sunsign, Object.keys(potentialSunsigns))
+  if (results.bestMatch.rating > 0.7) {
+    sunsign = results.bestMatch.target
+  }
 }
 
 if (!(sunsign in potentialSunsigns)) {

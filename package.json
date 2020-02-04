@@ -22,6 +22,7 @@
   "homepage": "https://github.com/rmorabia/rashee#readme",
   "dependencies": {
     "chalk": "^3.0.0",
+    "string-similarity": "^4.0.1",
     "yargs": "^15.1.0"
   },
   "devDependencies": {
