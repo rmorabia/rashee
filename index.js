@@ -62,9 +62,9 @@ const potentialSunsigns = {
 
 if (!argv._[0]) {
   console.log(`${chalk.bold('Welcome to rashee!')}
-Get your horoscope for today by running ${chalk.blue('npx run rashee')}.
+Get your horoscope for today by running ${chalk.blue('npx run rashee <sunsign>')}. Your sunsign is probably similar to ${chalk.green('taurus')} or ${chalk.keyword('purple')('sagittarius')}.
 If you need help, run ${chalk.red('npx run help')}.
-Thanks for using my silly little app. :)`)
+Thanks for using my silly little app. ${chalk.bold(':)')}`)
   process.exit()
 }
 
