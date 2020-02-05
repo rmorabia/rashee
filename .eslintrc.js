@@ -4,9 +4,7 @@ module.exports = {
     commonjs: true,
     es6: true
   },
-  extends: [
-    'standard'
-  ],
+  extends: ['standard'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -14,6 +12,8 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018
   },
-  rules: {
+  rules: {},
+  env: {
+    jest: true
   }
 }
