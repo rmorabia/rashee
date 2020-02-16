@@ -8,26 +8,6 @@ Add it to your CI/CD pipeline, run it for fun sometimes, or make it your opening
 
 This app uses the excellent [aztro](https://github.com/sameerkumar18/aztro) API.
 
-## Installation
-
-First, clone the repository locally using:
-
-```sh
-git clone https://github.com/rmorabia/rashee.git
-```
-
-Then, navigate to the repository using:
-
-```sh
-cd rashee
-```
-
-Lastly, install the necessary Node modules using:
-
-```sh
-npm i
-```
-
 ## Usage
 
 **Note:** The `<sunsign>` command refers to the most prominent and common sign you associate with horoscopes. It's what comes up on Google when you type in your birthday + "zodiac sign." 
@@ -48,6 +28,26 @@ If you have it installed, you can run it by using:
 
 ```
 rashee <sunsign>
+```
+
+## Installation
+
+First, clone the repository locally using:
+
+```sh
+git clone https://github.com/rmorabia/rashee.git
+```
+
+Then, navigate to the repository using:
+
+```sh
+cd rashee
+```
+
+Lastly, install the necessary Node modules using:
+
+```sh
+npm i
 ```
 
 ## Contributing
