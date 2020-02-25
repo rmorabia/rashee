@@ -6,6 +6,8 @@ Get your horoscope for the day printed to your console!
 
 Add it to your CI/CD pipeline, run it for fun sometimes, or make it your opening command every time you open your terminal. Do whatever you want with it!
 
+![](rashee.gif)
+
 This app uses the excellent [aztro](https://github.com/sameerkumar18/aztro) API.
 
 ## Usage
